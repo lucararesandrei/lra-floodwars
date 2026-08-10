@@ -24,6 +24,3 @@ The bot reads from stdin the following: a character 'J'/'S' representing the pla
 Since you can't read colours, the five colours available are repesented by these characters: '.#+@*'.  
 The bot prints to stdout the new NxM grid, with the move already applied.  
 
-### Conclusion
-I truly recommend implementing a flood-wars bot (though it would be better to have two players), as it really helps understanding complex game-logic algorithms such as minimax (with or without alpha-beta pruning), and other interesting ideas such as weird static evaluation ideas or transposition tables.  
-*lra-floodwars* is open-source in this repository, for everyone to see, use, or even change!  
