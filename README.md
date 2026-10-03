@@ -1,4 +1,4 @@
-# lra-floodwars v10
+# lra-floodwars
 *lra-floodwars* is a bot that plays 'flood-it' (or 'flood-wars'), a game with 5 colours on a 50x50 grid, and chooses the best move to win.  
 
 ### Flood-wars
