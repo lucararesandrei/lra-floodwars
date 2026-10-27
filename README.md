@@ -26,5 +26,5 @@ The bot prints (to stdout) the new N * M grid, with the move already applied.
 
 ## How to build & run
 The latest release comes with a Makefile. Make sure you have make and any C compiler installed. Simply run 'make' in the project root directory and run the executable.  
-# Warning
+### Warning
 The source code contains libraries that will work only in UNIX-like systems (macOS, Linux). For Windows users, try building & running with WSL.
