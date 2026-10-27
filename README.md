@@ -9,11 +9,11 @@ The winner is the player with the most captured area, which is decided after the
 ### The bot
 *lra-floodwars* was developed by me in about 2 months for a small tournament in my class.  
 So far, I've implemented the following:  
- . Game rules (so it won't make an illegal move),  
- . Negamax algorithm (with iterative deepening, killer moves heuristic, and move ordering),  
- . Static evaluation with component graphs and Voronoi diagram (or Voronoi distance, basically calculates the minimum number of moves from cell A to cell B),  
- . Transposition tables with Zobrist hashing (xor hashing),  
- . Undo moves stack (very efficient with bit operations).  
+* Game rules (so it won't make an illegal move),  
+* Negamax algorithm (with iterative deepening, killer moves heuristic, and move ordering),  
+* Static evaluation with component graphs and Voronoi diagram (or Voronoi distance, basically calculates the minimum number of moves from cell A to cell B),  
+* Transposition tables with Zobrist hashing (xor hashing),  
+* Undo moves stack (very efficient with bit operations).  
 
 ### Extra game rules
 The time limit for each turn is 1 second (and no memory limit).  
