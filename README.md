@@ -1,7 +1,7 @@
 # lra-floodwars
-*lra-floodwars* is a bot that plays 'flood-it' (or 'flood-wars'), a game with 5 colours on a 50x50 grid, and chooses the best move.  
+*lra-floodwars* is an engine that finds the best move for Flood Wars (or Flood-it), a game with 5 colours on a 50x50 grid.  
 
-## Flood-wars
+## Flood Wars
 Two warriors are placed on separate corners of the grid; one player starts from the bottom-left corner, and the other from the top-right corner.  
 They take turns changing their colour, which means changing the colour of their territory and conquering neighbouring cells with the same (new) colour.  
 The winner is the player with the most captured area, which is decided based on total area after the whole grid is made up of only 2 colors (meaning they captured every cell available) or after the limit of 150 moves.  
